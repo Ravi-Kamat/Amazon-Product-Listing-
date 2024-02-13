@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product Listing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/895d53c89d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/images.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-------------- navigation-bar ---------->
+    <header>
+        <div class="logo">
+            <img src="./assets/Amazon-Logo-White-Transparent.png" alt="logo" width="120">
+            <div>deliver to</div>
+            <div class="goods">Eloctronics <span><i class="fa-solid fa-caret-down"></i></span></div>
+            <input type="search" placeholder="Search Amazon.in">
+            <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="lang"><span><img src="./assets/Flag_of_India.png" alt=""></span>EN</div>
+            <div>Hello Bob</div>
+
+            <div><span><i class="fa-solid fa-cart-shopping"></i></span>Cart</div>
+        </div>
+
+    </header>
+
+    <!---------- products-listing ---------->
+    <div class="listing">
+        <div class="all"><span><i class="fa-solid fa-bars"></i></span>All</div>
+        <div class="mini-tv">Amazon miniTV</div>
+        <div class="sell">Sell</div>
+        <div class="Amazon-pay">Amazon Pay</div>
+        <div class="gift">Gift Cards</div>
+        <div class="fashion">Fashion</div>
+        <div class="buy">Buy Again</div>
+        <div class="gifts-ideas">Gifts ideas</div>
+        <div class="deals">Today Deals</div>
+        <div class="coupons">coupons</div>
+        <div class="brows-history">Brows History</div>
+        <div class="care">Customer care</div>
+        <div class="amazon">Bob's Amazon.in</div>
+        <div class="books">Books</div>
+        <div class="health">Health,householdes&personal care</div>
+
+    </div>
+
+    <!----------filter ------------->
+    <div class="container">
+
+        <div class="filter">
+            <div class="select">
+                <p>select filters</p>
+                <a href="">Clear all</a>
+            </div>
+
+            <div class="prime">
+                <h3>Amazon Prime</h3>
+                <input type="checkbox" id="prime">
+                <label for="prime">Prime</label>
+            </div>
+
+            <div class="price">
+                <h3>under</h3>
+                <input type="checkbox" id="first">
+                <label for="first"><span><i class="fa-solid fa-indian-rupee-sign"></i></span>100 - <i
+                        class="fa-solid fa-indian-rupee-sign"></i>1,000</label>
+                <br>
+                <input type="checkbox" id="second">
+                <label for="second"><i class="fa-solid fa-indian-rupee-sign"></i>1,000 - <i
+                        class="fa-solid fa-indian-rupee-sign"></i>5,000</label>
+                <br>
+                <input type="checkbox" id="third">
+                <label for="third"><i class="fa-solid fa-indian-rupee-sign"></i>5,000 - <i
+                        class="fa-solid fa-indian-rupee-sign"></i>15,000</label>
+                <br>
+                <input type="checkbox" id="four">
+                <label for="four"><i class="fa-solid fa-indian-rupee-sign"></i>15,000 - <i
+                        class="fa-solid fa-indian-rupee-sign"></i>25,000</label>
+                <br>
+                <input type="checkbox" id="five">
+                <label for="five"><i class="fa-solid fa-indian-rupee-sign"></i>25,000 - <i
+                        class="fa-solid fa-indian-rupee-sign"></i>50,0000</label>
+
+            </div>
+
+            <div class="catogery">
+                <h3>catogery</h3>
+                <input type="checkbox" id="grocrise">
+                <label for="grocrise">grocrise</label>
+                <br>
+                <input type="checkbox" id="Eloctronics">
+                <label for="Eloctronics">Eloctronics</label>
+                <br>
+                <input type="checkbox" id="beauty">
+                <label for="beauty">beauty</label>
+                <br>
+                <input type="checkbox" id="Cloths">
+                <label for="Cloths">Cloths</label>
+                <br>
+                <input type="checkbox" id="health">
+                <label for="health">healths</label>
+                <br>
+
+            </div>
+            <div class="review">
+                <h3>Customer review</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i> & up
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i> & up
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i> & up
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i> & up
+                    </li>
+                </ul>
+            </div>
+            <div class="brands">
+                <h3>Brands</h3>
+                <a href="#">Search by catogery</a>
+            </div>
+
+            <div class="discunts">
+                <h3>Deal's & Discounts</h3>
+                <a href="">All Discount's</a>
+                <br>
+                <a href="">Today's Deals</a>
+                <br>
+                <input type="checkbox" id="twenty">
+                <label for="twenty">10% - 25%</label>
+                <br>
+                <input type="checkbox" id="thirty">
+                <label for="thirty">25% - 50 %</label>
+                <br>
+            </div>
+
+        </div>
+
+        <!-- carts items -->
+
+        <div class="card-container">
+            <div class="card-items">
+
+                <div class="img">
+                    <img src="./assets/12.jpg" alt="">
+                </div>
+
+                <div class="product-info">
+                    <p class="title">OnePlus 12 (Flowy Emerald, 12 GB RAM, 256GB)</p>
+                    <p class="rating">⭐⭐⭐⭐<i class="fa-solid fa-chevron-down"></i>158</p>
+                    <small class="sale-info">5K+ bought in past month</small>
+                    <p class="pricing"><sup>
+                            <i class="fa-solid fa-indian-rupee-sign"></i>
+                        </sup><big><b>64,999</b></big> <sub>M.R.P:<span><i
+                                    class="fa-solid fa-indian-rupee-sign"></i>10,999</span> <big>(45%
+                                off)</big></sub></p>
+                    <div class="prime-member">Prime</div>
+                    <div class="delivery">
+                        Free devlivery Tommorrow
+                    </div>
+                    <button class="btn" type="button">Add to cart</button>
+
+                    <div class="color">
+
+                        <div class="one"></div>
+                        <div class="two"></div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="card-items">
+
+                <div class="img">
+                    <img src="./assets/poco-c51.jpg" alt="">
+                </div>
+
+                <div class="product-info">
+                    <p class="title">POCO C51 (Royal Blue, 6GB RAM, 128GB Storage)</p>
+                    <p class="rating">⭐⭐⭐⭐<i class="fa-solid fa-chevron-down"></i>158</p>
+                    <small class="sale-info">5K+ bought in past month</small>
+                    <p class="pricing"><sup>
+                            <i class="fa-solid fa-indian-rupee-sign"></i>
+                        </sup><big><b>5,9999</b></big> <sub>M.R.P:<span><i
+                                    class="fa-solid fa-indian-rupee-sign"></i>10,999</span> <big>(45%
+                                off)</big></sub></p>
+                    <div class="prime-member">Prime</div>
+                    <div class="delivery">
+                        Free devlivery Tommorrow
+                    </div>
+                    <button class="btn" type="button">Add to cart</button>
+
+                    <div class="color">
+
+                        <div class="one"></div>
+                        <div class="two"></div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="card-items">
+
+                <div class="img">
+                    <img src="./assets/poco-c51.jpg" alt="">
+                </div>
+
+                <div class="product-info">
+                    <p class="title">POCO C51 (Royal Blue, 6GB RAM, 128GB Storage)</p>
+                    <p class="rating">⭐⭐⭐⭐<i class="fa-solid fa-chevron-down"></i>158</p>
+                    <small class="sale-info">5K+ bought in past month</small>
+                    <p class="pricing"><sup>
+                            <i class="fa-solid fa-indian-rupee-sign"></i>
+                        </sup><big><b>5,9999</b></big> <sub>M.R.P:<span><i
+                                    class="fa-solid fa-indian-rupee-sign"></i>10,999</span> <big>(45%
+                                off)</big></sub></p>
+                    <div class="prime-member">Prime</div>
+                    <div class="delivery">
+                        Free devlivery Tommorrow
+                    </div>
+                    <button class="btn" type="button">Add to cart</button>
+
+                    <div class="color">
+
+                        <div class="one"></div>
+                        <div class="two"></div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="card-items">
+
+                <div class="img">
+                    <img src="./assets/poco-c51.jpg" alt="">
+                </div>
+
+                <div class="product-info">
+                    <p class="title">POCO C51 (Royal Blue, 6GB RAM, 128GB Storage)</p>
+                    <p class="rating">⭐⭐⭐⭐<i class="fa-solid fa-chevron-down"></i>158</p>
+                    <small class="sale-info">5K+ bought in past month</small>
+                    <p class="pricing"><sup>
+                            <i class="fa-solid fa-indian-rupee-sign"></i>
+                        </sup><big><b>5,9999</b></big> <sub>M.R.P:<span><i
+                                    class="fa-solid fa-indian-rupee-sign"></i>10,999</span> <big>(45%
+                                off)</big></sub></p>
+                    <div class="prime-member">Prime</div>
+                    <div class="delivery">
+                        Free devlivery Tommorrow
+                    </div>
+                    <button class="btn" type="button">Add to cart</button>
+
+                    <div class="color">
+
+                        <div class="one"></div>
+                        <div class="two"></div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
